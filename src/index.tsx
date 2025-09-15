@@ -1,3 +1,5 @@
-export function multiply(a: number, b: number): number {
-  return a * b;
-}
+// @ts-ignore
+import MonthYearSelector from "./MonthSelection/MonthYearSelector";
+
+export { MonthYearSelector };
+export default MonthYearSelector;
